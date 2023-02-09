@@ -1,0 +1,57 @@
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.flexbox-container {
+background-color: rgb(190, 211, 211);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+text-align: justify;
+}
+
+.flexbox-item {
+    height: 128px;
+    width: 592x;
+    background-color: rgb(190, 211, 211);
+    text-justify: distribute-all-lines;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.item-1 {
+    height: 100%;
+    width: 20%;
+    flex-grow: 1;
+    justify-content: center;
+}
+.item-2 {
+    height: 100%;
+    width: 30%;
+    flex-grow: 2;
+}
+.item-3 {
+    height: 100%;
+    width: 50%;
+    flex-grow: 3;
+    justify-content: center;
+    text-align: justify;
+}
