@@ -43,6 +43,11 @@ text-align: justify;
     flex-grow: 1;
     justify-content: center;
 }
+.item-2 {
+    height: 100%;
+    width: 30%;
+    flex-grow: 2;
+}
 .item-3 {
     height: 100%;
     width: 50%;
@@ -50,23 +55,3 @@ text-align: justify;
     justify-content: center;
     text-align: justify;
 }
-
-.item-2 .movie-text .rating-favorites {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-  }
-
-.flexbox-item .rating img {
-    width: 16px;
-  }
-  
-.flexbox-item .favorite img {
-    cursor: pointer;
-    transition: all .3s;
-    width: 1.2rem;
-  }
-  
-.mflexbox-item .favorite img:hover {
-    transform: scale(1.1);
-  }
